@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    {% include 'page.header.html' %}
+
+    {% if site.title %}<title>{% if title %}{{ title }} &ndash; {% endif %}{{ site.title }}{% if not title and site.subtitle %} &ndash; {{ site.subtitle }}{% endif %}</title>{% endif %}
+</head>
+
+<body>
+  <div id="container">
+    <div id="sidebar">
+      <div id="header">
+        <h1><a href="{{ get_url() }}">{{ site.title }}</a></h1>
+        {% if site.subtitle %}<h2>{{ site.subtitle }}</h2>{% endif %}
+        </div>
+
+      <div class="module module-nav">
+        <ul class="unstyled">
+          <li><a href="{{ get_url('about/')}}"> About</a></li>
+          <li><a href="{{ get_url() }}">Blog</a></li>
+          <li><a href="{{ get_url('archives/') }}">Archives</a></li>
+          <li><a href="{{ get_url('feed.xml') }}">Feed</a></li>
+        </ul>
+      </div>
+
+      <div class="module">
+        <p>Essentially a portfolio for my past/future work. I'm quite forgetful so bear with me if this isn't updated regularly.</p>
+        <p>To anyone else reading this, congratulations! You've reached enlightment.</p>
+        <p>In case you're still interested in my work and ramblings you can find me on <a href="https://github.com/edhaker13">GitHub</a>, <a href="https://facebook.com/edhaker13">Facebook</a> and <a href="https://twitter.com/edhaker13">Twitter</a>.</p>
+      </div>
+
+      <div id="footer">
+        <p>{% if site.author %}&copy; {{ none|date('%Y') }} {{ site.author }} &ndash; {% endif %}powered by <a href="http://mynt.mirroredwhite.com/">mynt</a></p>
+      </div>
+    </div>
+    {% block breadcrumbs %}{% endblock %}
+
+    <div id="content">
+      {% block content %}{% endblock %}
+    </div>
+  </div>
+  {% if site.show_disqus %}
+    <script type="text/javascript">
+      var disqus_shortname = '{{ site.disqus_shortname }}'
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+      }());
+    </script>
+  {% endif %}
+</body>
+</html>

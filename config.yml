@@ -1,0 +1,56 @@
+#
+# BASE CONFIGURATION
+#
+
+# `base_url` should only be changed if your site isn't hosted at the root of a domain.
+# `domain` is used to generate absolute URLs. (required to generate a valid feed)
+#
+#   Example:
+#       http://my-site.com/
+#           base_url: /
+#           domain: my-site.com
+#       http://my-site.com/my-blog/
+#           base_url: /my-blog/
+#           domain: my-site.com
+base_url: /
+domain: luis-checa.com
+posts_url: /<year>/<month>/<title>/
+
+#
+# METADATA
+#
+
+# Used in header meta tags and the site feed. (required to generate a valid feed)
+author: Luis Checa
+# A description of your site to be used in header meta tags.
+description: Blog and (maybe) ortfolio of my work.
+# Used in the site feed.
+email: blog@edvps.com
+# Your site's subtitle.
+subtitle: An attempt to make a blog.
+# Your site's title. (required to generate a valid feed)
+title: Luis Checa
+
+time_locale: en_GB
+
+# How many posts to display in the front page
+post_limit: 5
+
+#
+# THIRD PARTY SETTINGS
+#
+
+# If you'd like to enable Google Analytics for your site, set this to your tracking code.
+analytics: UA-44747900-1
+# Disqus settings
+show_disqus: True
+disqus_name: luischeca
+
+#
+# Chances are you probably don't need to touch anything below here.
+#
+
+archive_layout: archive.html
+archives_url: /archives/
+tag_layout: tag.html
+tags_url: /archives/
