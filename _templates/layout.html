@@ -13,7 +13,7 @@
       <div id="header">
         <h1><a href="{{ get_url() }}">{{ site.title }}</a></h1>
         {% if site.subtitle %}<h2>{{ site.subtitle }}</h2>{% endif %}
-        </div>
+      </div>
 
       <div class="module module-nav">
         <ul class="unstyled">
@@ -40,17 +40,5 @@
       {% block content %}{% endblock %}
     </div>
   </div>
-  {% if site.show_disqus %}
-    <script type="text/javascript">
-      var disqus_shortname = '{{ site.disqus_shortname }}'
-      /* * * DON'T EDIT BELOW THIS LINE * * */
-      (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-      }());
-    </script>
-  {% endif %}
 </body>
 </html>

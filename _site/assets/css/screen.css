@@ -12,7 +12,7 @@ body {
   background-repeat: repeat;
   color: #d9d9d9;
   font-family: "Ubuntu", sans-serif;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 blockquote, dl, ol, p, pre, table, ul {
@@ -115,6 +115,16 @@ ol {
 p {
   line-height: 18px;
   text-align: justify;
+}
+
+lside {
+  display:block;
+  float:left;
+}
+
+rside {
+  display:block;
+  float:right;
 }
 
 pre {
@@ -225,7 +235,8 @@ a > img {
 
 #content {
   margin: 18px 0px 18px 309px;
-  width: 651px;
+  min-width: 600px;
+  width: 801px;
 }
 #breadcrumbs + #content {
   margin-top: 72px;
@@ -263,6 +274,35 @@ a > img {
 }
 #header a:hover {
   color: #a6ca48;
+}
+
+#social {
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: 4px;
+  display:block;
+}
+
+#social li {
+  float: left;
+  margin-left: 32px;
+  border: none;
+  padding: 0;
+  line-height: normal;
+}
+#social > li:before {
+  content: none;
+}
+
+#social a img {
+  vertical-align: middle;
+  padding: 0;
+  background-color: transparent;
+}
+
+#social li a img {
+  height: 32px;
+  width: 32px;
 }
 
 .module {

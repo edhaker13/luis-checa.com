@@ -42,9 +42,13 @@ post_limit: 5
 
 # If you'd like to enable Google Analytics for your site, set this to your tracking code.
 analytics: UA-44747900-1
+
 # Disqus settings
 show_disqus: True
 disqus_name: luischeca
+
+# Common username for the mayority of sites (saves typing it over and over).
+username: edhaker13
 
 #
 # Chances are you probably don't need to touch anything below here.
