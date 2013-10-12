@@ -1,0 +1,63 @@
+{% extends 'layout.html' %}
+{% set title='About Me' %}
+{% block content %}
+  <div class='item'>
+    <div class='item-header'>
+      <h1>{{ site.author }}</h1>
+    </div>
+    <div class='item-body'>
+      <div class='lside' id='social'>
+        <img alt='{{ site.author }}' src='{{ get_asset('images/me.jpg')}}'>
+        <ul id='social'>
+          <li><a href='https://twitter.com/{{ site.username }}'><img alt='twitter' src='{{ get_asset('images/twitter_32.png') }}'></a></li>
+          <li><a href='https://github.com/{{ site.username }}'><img alt='github' src='{{ get_asset('images/github_32.png') }}'></a></li>
+          <li><a href='https://facebook.com/{{ site.username }}'><img alt='facebook' src='{{ get_asset('images/facebook_32.png')}}'></a></li>
+        </ul>
+        <a href='https://www.ohloh.net/accounts/524249?ref=Detailed' target='_blank'><img alt='Ohloh profile for edhaker13' border='0' height='35' src='https://www.ohloh.net/accounts/524249/widgets/account_detailed.gif' width='230' /></a>
+      </div>
+
+      <p>I'm a junior software devolper from Stafford, United Kingdom.</p>
+      <p>You may be wondering why my name doesn't sound English in the least, well you're right. I'm actually Spanish!</p>
+      <p>Another thing you may be wondering is why my username is '{{ site.username }}', to be completely honest, I made this username so long ago even I'm not completely sure. I think it was a mix of my middle name 'Eduardo', my interest for hacking and my favourite number '13'; I believe I dropped the 'c' mainly to make sure it was different and always available as a username.</p>
+      <p>I have a National Extended Diploma (BTEC L3) in Software Development, and I'm currently studying a Bacherlor's Degree in Games Programming at Staffordshire University.</p>
+      <p>My current job is Product Sytems Developer and Designer at a renewable energy company called Solar Panels Direct. If you're still interested in me and my ideas it might be a good idea to follow my <a href='{{ get_url() }}'>blog</a> and/or subscribe to the <a href='{{ get_url('feed.xml') }}'>RSS</a> feed.</p>
+      <p>The fastest way to get in touch with me is <a href='mailto:luischeca@mail.com'>email</a>.</p>
+
+      <h2>Technologies and tools</h2>
+      <p>My current setup consists of a custom built desktop PC AMD FX-8350 with 8GB DDR3, 24' 1080p dual Monitors, 250GB Samsung 840 SSD, Radeon HD7850 2GB, 3TB Toshiba HDD; Used primarily for gaming, work, reddit and of course code hacking.</p>
+      <p>This PC started out as a normal store bought desktop (Acer Insipre M6220, if anyone's curious) but I began the long and painful transition, of upgrading components when I dicovered the joys of PC gaming.</p>
+      <p>I also own a Google Nexus 4 smart phone, and a Google Nexus 7 tablet, which I love to death; both of these are the first devices I bought entirely out of my own money.</p>
+
+      <p>My weapon of choice is the hyper-flexible <a href='http://python.org/'>Python</a>, I love this language to bits. I began coding when somehow I discovered HTML and webpages when I was 7 or 8, afterwards I moved on to tinkering with languages for my game consoles (Think, PSP,NDS).</p>
+      <p>I've fiddle in any language that I came across, but Python just struck me as beatifully simple and esy to read, a major factor to this is that I had been making some project in Java and grew to hate the amount of boilerplate required.</p>
+      <p>Although, I've wrestled with the major languages out there, I should only say I'm able to use Python, Java, and PHP. And I'm currently working out polishing my C++ in University</p>
+
+      <h2>My Software</h2>
+      <p>Most of my projects are open source and available on <a href='https://github.com/{{ site.username }}'>GitHub</a>, please excuse me before hand if you see some unclear descriptions (**English is not my first language) and lack of license declarations (**I never get them right).</p>
+      <p>Other projects such as websites and old console apps were lost in the interwebs, I'm sure they're out there somewhere. There are also projects I created to automate some tasks at work, however due to the NDA I signed I'm unable to disclose them.</p>
+      <p>&nbsp;</p>
+      <p>Recently we (a team of 6 students, including me) developed a game idea using Contruct2 a a part of our <a href='http://www.fcet.staffs.ac.uk/pfb1/welcomeweek/2013/'>freshers welcome week</a> at Stafford University. Essentially it's a 2D Multiplayer Maze with limited visibilty to enhance (deterr?) gameplay.</p>
+      <p>The game was to be developed during the 3 days remaining of our welcome week, after which it would be jugded by the fine folks visiting from CodeMasters. Out of 15-20 groups they would select 3 games they thought Creative, Innovative, and Unique.</p>
+      <p>Surpringly our game idea made it through to the final and not only that, we won!</p>
+      <p>Here's a link where you can see what the game looked like in at the competition <a href='http://www.fcet.staffs.ac.uk/pfb1/welcomeweek/2013/games/42/'>AmazD - Team 42</a>. The objective of the game is to find your way through the maze to the other player's spawn point (marked by the red or blue sector).
+      The controls are quite simple: WASD for player 1 and the arrow keys for player 2, also there are coloured blocks that are either buffs or traps so be careful!.</p>
+      <p>At some point I'll write a more detailed post going over how, and why we did what we did, also there are plans to improve it and publish it on the Windows Store so keep an eye out for us.</p>
+
+      <h2>Software I use</h2>
+      <p>Everbody uses software, otherwise you couldn't be reading this page, hahaha. But this is the software I use for one reason or another:</p>
+      <ul id='software'>
+        <li><a href='http://windows.iusethis.com/users/{{ site.username }}' alt='I use this - List of Software'>I use this</a></li>
+        <li>Editors and IDEs: ViM on Linux, Notepad++ on Windows, PyCharm is also really useful for Python, Eclipse is very good for Java (a bit sluggish though).</li>
+        <li>Internet: Google Chrome is a really snappy and the sync actually works, qbittorent is lightweight and fast.</li>
+        <li>Social and IM: Skype for video/voice chat, WhatsApp for international contact, SMS for mainland, and HexChat/irssi for IRC, and Facebook when I must.</li>
+        <li>Media: MPC, Haali and LAV Filters for smooth video playback, Foobar2000 for the musical needs, Steam for the games library, Netflix and Crunchyroll take care of the video source.</li>
+        <li>Office and Productivity: M$ Office is a requirement for work, SumatraPDF as a PDF reader, Gmail - Google Apps - Thunderbird to create and manage the different domains and email addresses,
+        KeePass is an excellent password manager, Dropbox is a blessing to sync all your data, VirtualBox is really useful to test new Operating Systems and testing enviroments, Console2 and MSYSgit allows me to use git and other gnu utils on Windows.</li>
+        <li>Server Communication: Putty I use a portable version located on Dropbox so the settings and servers are synced across computers, WinSCP allows great flexibilty and uses SFTP which is what I use,
+        KeeAgent acts as an SSH agent so I can store my SSH keys on the database and use them on demand inside KeePass.</li>
+      </ul>
+
+    </div>
+  </div>
+{% endblock %}
+

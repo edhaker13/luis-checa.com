@@ -31,6 +31,7 @@ subtitle: An attempt to make a blog.
 # Your site's title. (required to generate a valid feed)
 title: Luis Checa
 
+# Time format to use.
 time_locale: en_GB
 
 # How many posts to display in the front page

@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://luis-checa.com/" />
     <link rel="self" href="http://luis-checa.com/feed.xml" type="application/atom+xml" />
     <id>http://luis-checa.com/</id>
-    <updated>2013-10-11T02:17:16Z</updated>
+    <updated>2013-10-12T22:46:25Z</updated>
     
     <author>
         <name>Luis Checa</name>
@@ -13,5 +13,99 @@
         <uri>http://luis-checa.com/</uri>
     </author>
     
+    
+        <entry>
+            <title>Luis Checa</title>
+            <link rel="alternate" href="http://luis-checa.com/2013/10/About-Me/" type="text/html" />
+            <id>http://luis-checa.com/2013/10/About-Me/</id>
+            <updated>2013-10-12T22:34:00Z</updated>
+            
+            
+            <content type="html">&lt;div class=&#39;lside&#39; id=&#39;social&#39;&gt;
+&lt;img alt=&#39;Luis Checa&#39; src=&#39;/assets/images/me.jpg&#39;&gt;
+&lt;ul id=&#39;social&#39;&gt;
+  &lt;li&gt;&lt;a href=&#39;https://twitter.com/edhaker13&#39;&gt;&lt;img alt=&#39;twitter&#39; src=&#39;/assets/images/twitter_32.png&#39;&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#39;https://github.com/edhaker13&#39;&gt;&lt;img alt=&#39;github&#39; src=&#39;/assets/images/github_32.png&#39;&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&#39;https://facebook.com/edhaker13&#39;&gt;&lt;img alt=&#39;facebook&#39; src=&#39;/assets/images/facebook_32.png&#39;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;a href=&#39;https://www.ohloh.net/accounts/524249?ref=Detailed&#39; target=&#39;_blank&#39;&gt;&lt;img alt=&#39;Ohloh profile for edhaker13&#39; border=&#39;0&#39; height=&#39;35&#39; src=&#39;https://www.ohloh.net/accounts/524249/widgets/account_detailed.gif&#39; width=&#39;230&#39; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I&amp;#39;m a junior software devolper from Stafford, United Kingdom.&lt;/p&gt;
+
+&lt;p&gt;You may be wondering why my name doesn&amp;#39;t sound English in the least, well you&amp;#39;re right.I&amp;#39;m actually Spanish!&lt;/p&gt;
+
+&lt;p&gt;Another thing you may be wondering is why my username is &lt;em&gt;&amp;#39;edhaker13&amp;#39;&lt;/em&gt;,to be completely honest, I made this username so long ago even I&amp;#39;m not completely sure. I think it was a mix of my middle name &lt;em&gt;&amp;#39;Eduardo&amp;#39;&lt;/em&gt;,my interest for hacking and my favourite number &lt;em&gt;&amp;#39;13&amp;#39;&lt;/em&gt;; I believe I dropped the &lt;em&gt;&amp;#39;c&amp;#39;&lt;/em&gt; mainly to make sure it was different and always available as a username.&lt;/p&gt;
+
+&lt;p&gt;I have a National Extended Diploma (BTEC L3) in Software Development, and I&amp;#39;m currently studying a Bacherlor&amp;#39;s Degree in Games Programming at Staffordshire University.&lt;/p&gt;
+
+&lt;p&gt;My current job is Product Sytems Developer and Designer at a renewable energy company called Solar Panels Direct.If you&amp;#39;re still interested in me and my ideas it might be a good idea to follow my &lt;a href=&#34;http://luis-checa.com/&#34;&gt;blog&lt;/a&gt; and/or subscribe to the &lt;a href=&#34;http://luis-checa.com/feed.xml&#34;&gt;RSS&lt;/a&gt; feed.&lt;/p&gt;
+
+&lt;p&gt;The fastest way to get in touch with me is &lt;a href=&#34;mailto:luischeca@mail.com&#34;&gt;email&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Technologies and tools&lt;/h2&gt;
+&lt;p&gt;My current setup consists of a custom built desktop PC AMD FX-8350 with 8GB DDR3, 24&amp;#39; 1080p dual Monitors, 250GB Samsung 840 SSD, Radeon HD7850 2GB, 3TB Toshiba HDD; Used primarily for gaming, work, reddit and of course code hacking.&lt;br&gt;
+This PC started out as a normal store bought desktop (Acer Insipre M6220, if anyone&amp;#39;s curious) but I began the long and painful transition, of upgrading components when I dicovered the joys of PC gaming.&lt;/p&gt;
+
+&lt;p&gt;I also own a Google Nexus 4 smart phone, and a Google Nexus 7 tablet, which I love to death; both of these are the first devices I bought entirely out of my own money.&lt;/p&gt;
+
+&lt;p&gt;My weapon of choice is the hyper-flexible &lt;a href=&#34;http://python.org&#34;&gt;Python&lt;/a&gt; I love this language to bits. I began coding when somehow I discovered HTML and webpages when I was 7 or 8, afterwards I moved on to tinkering with languages for my game consoles (Think, PSP,NDS).&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ve fiddle in any language that I came across, but Python just struck me as beatifully simple and esy to read, a major factor to this is that I had been making some project in Java and grew to hate the amount of boilerplate needed.&lt;/p&gt;
+
+&lt;p&gt;Although, I&amp;#39;ve wrestled with the major languages out there, I should only say I&amp;#39;m able to use Python, Java, and PHP. And I&amp;#39;m currently working out polishing my C++ in University.&lt;/p&gt;
+&lt;h2&gt;My Software&lt;/h2&gt;
+&lt;p&gt;Most of my projects are open source and available on &lt;a href=&#34;https://github.com/edhaker13&#34;&gt;GitHub&lt;/a&gt;, please excuse me before hand if you see some unclear descriptions &lt;em&gt;(English is not my first language)&lt;/em&gt; and lack of license declarations &lt;em&gt;(I never get them right)&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Other projects such as websites and old console apps were lost in the interwebs, I&amp;#39;m sure they&amp;#39;re out there somewhere. There are also projects I created to automate some tasks at work, however due to the NDA I signed I&amp;#39;m unable to disclose them.&lt;/p&gt;
+
+&lt;p&gt;Recently we (a team of 6 students, including me) developed a game idea using Contruct2 a a part of our &lt;a href=&#34;http://www.fcet.staffs.ac.uk/pfb1/welcomeweek/2013/&#34;&gt;freshers welcome week&lt;/a&gt; at Stafford University. Essentially it&amp;#39;s a 2D Multiplayer Maze with limited visibilty to enhance &lt;em&gt;deterr?&lt;/em&gt; gameplay.&lt;/p&gt;
+
+&lt;p&gt;The game was to be developed during the 3 days remaining of our welcome week, after which it would be jugded by the fine folks visiting from CodeMasters. Out of 15-20 groups they would select 3 games they thought Creative, Innovative, and Unique.&lt;/p&gt;
+
+&lt;p&gt;Surpringly our game idea made it to the final and not only that, &lt;strong&gt;&lt;em&gt;we won!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Here&amp;#39;s a link where you can see what the game looked like in at the competition &lt;a href=&#34;http://www.fcet.staffs.ac.uk/pfb1/welcomeweek/2013/games/42/&#34;&gt;AmazD - Team 42&lt;/a&gt;. The objective of the game is to find your way through the maze to the other player&amp;#39;s spawn point (marked by the red or blue sector).&lt;/p&gt;
+
+&lt;p&gt;The controls are simple: WASD for player 1 and the arrow keys for player 2, also there are coloured items that are either buffs or debuffs so be careful!&lt;/p&gt;
+
+&lt;p&gt;At some point I&amp;#39;ll write a more detailed post going over how, and why we did what we did, also there are plans to improve it and publish it on the Windows Store so keep an eye out for us.&lt;/p&gt;
+&lt;h2&gt;Software I use&lt;/h2&gt;
+&lt;p&gt;Everbody uses software, otherwise you couldn&amp;#39;t be reading this page, hahaha. But this is the software I use for one reason or another:&lt;br&gt;
+- &lt;a href=&#34;http://windows.iusethis.com/users/edhaker13&#34;&gt;I use this&lt;/a&gt;&lt;br&gt;
+- Editors and IDEs&lt;br&gt;
+    - &lt;a href=&#34;http://vim.org&#34;&gt;ViM&lt;/a&gt; on Linux.&lt;br&gt;
+    - &lt;a href=&#34;http://notepad-plus-plus.org/&#34;&gt;Notepad++&lt;/a&gt; on Windows.&lt;br&gt;
+    - &lt;a href=&#34;http://www.jetbrains.com/pycharm/&#34;&gt;PyCharm&lt;/a&gt; is really useful for Python.&lt;br&gt;
+    - &lt;a href=&#34;http://www.eclipse.org/downloads/&#34;&gt;Eclipse&lt;/a&gt; is very good for Java &lt;em&gt;(a bit sluggish though)&lt;/em&gt;.&lt;br&gt;
+- Internet&lt;br&gt;
+    - &lt;a href=&#34;http://google.com/chrome&#34;&gt;Google Chrome&lt;/a&gt; is a really snappy browser and the cross device sync actually works. &lt;em&gt;cough, firefox, cough&lt;/em&gt;&lt;br&gt;
+    - qbittorent is lightweight and fast torent client, it&amp;#39;s not let me down yet.&lt;br&gt;
+- Social and IM&lt;br&gt;
+    - &lt;a href=&#34;http://www.skype.com&#34;&gt;Skype&lt;/a&gt; for video/voice chat communications.&lt;br&gt;
+    - &lt;a href=&#34;http://whatsapp.com&#34;&gt;WhatsApp&lt;/a&gt; for international contacts.&lt;br&gt;
+    - &lt;a href=&#34;http://hexchat.github.com&#34;&gt;HexChat&lt;/a&gt; and &lt;a href=&#34;http://www.irssi.org&#34;&gt;irssi&lt;/a&gt; for IRC.&lt;br&gt;
+    - Facebook when I have no choice.&lt;br&gt;
+- Media&lt;br&gt;
+    - &lt;a href=&#34;http://mpc-hc.org&#34;&gt;MPC&lt;/a&gt; an awesome and versatile video player.&lt;br&gt;
+    - &lt;a href=&#34;http://code.google.com/p/lavfilters/&#34;&gt;LAV Filters&lt;/a&gt; decoders for smooth video playback.&lt;br&gt;
+    - You can find a complete guide of how to install these at &lt;a href=&#34;http://horriblesubs.info/playback-guide&#34;&gt;horriblesubs&lt;/a&gt;.&lt;br&gt;
+    - &lt;a href=&#34;http://www.foobar2000.org&#34;&gt;Foobar2000&lt;/a&gt; for my musical needs.&lt;br&gt;
+    - &lt;a href=&#34;http:/store.steampowered.com/about/&#34;&gt;Steam&lt;/a&gt; for games both library and store.&lt;br&gt;
+    - &lt;a href=&#34;https://netflix.com&#34;&gt;Netflix&lt;/a&gt; and &lt;a href=&#34;https://crunchyroll.co.uk&#34;&gt;Crunchyroll&lt;/a&gt; take care of the my shows fix.&lt;br&gt;
+- Office and Productivity&lt;br&gt;
+    - Microsoft Office is kind of a requirement for my work.&lt;br&gt;
+    - &lt;a href=&#34;http://blog.kowalczyk.info/software/sumatrapdf/&#34;&gt;SumatraPDF&lt;/a&gt; as a PDF reader.&lt;br&gt;
+    - Gmail and &lt;a href=&#34;https://www.mozilla.org/en-GB/thunderbird/&#34;&gt;Thunderbird&lt;/a&gt; to&lt;br&gt;
+     manage my different email addresses.&lt;br&gt;
+    - &lt;a href=&#34;http://keepass.info&#34;&gt;KeePass&lt;/a&gt; is an excellent password manager.&lt;br&gt;
+    - &lt;a href=&#34;https://www.dropbox.com&#34;&gt;Dropbox&lt;/a&gt; is a blessing to keep all your data synced&lt;br&gt;
+    - &lt;a href=&#34;http://www.virtualbox.org&#34;&gt;VirtualBox&lt;/a&gt; is really useful to test new Operating Systems and testing enviroments.&lt;br&gt;
+    - &lt;a href=&#34;http://sourceforge.net/projects/console/&#34;&gt;Console2&lt;/a&gt; and &lt;a href=&#34;https://code.google.com/p/msysgit/&#34;&gt;MSYSgit&lt;/a&gt; allows me to use git and other gnu utils on Windows.&lt;br&gt;
+- Server Communication&lt;br&gt;
+    - &lt;a href=&#34;http://www.chiark.greenend.org.uk/%7Esgtatham/putty/&#34;&gt;PuTTY&lt;/a&gt; I use a portable version located on Dropbox so the settings and servers are synced across computers.&lt;br&gt;
+    - &lt;a href=&#34;http://winscp.net&#34;&gt;WinSCP&lt;/a&gt; allows great flexibilty and it has SFTP which is what I use.&lt;br&gt;
+    - &lt;a href=&#34;http://lechnology.com/KeeAgent&#34;&gt;KeeAgent&lt;/a&gt; acts as an SSH agent so I can store my SSH keys on the database and use them on demand inside KeePass.&lt;/p&gt;
+</content>
+        </entry>
     
 </feed>

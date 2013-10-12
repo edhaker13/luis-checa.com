@@ -117,12 +117,12 @@ p {
   text-align: justify;
 }
 
-lside {
+.lside {
   display:block;
   float:left;
 }
 
-rside {
+.rside {
   display:block;
   float:right;
 }
