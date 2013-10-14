@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://luis-checa.com/" />
     <link rel="self" href="http://luis-checa.com/feed.xml" type="application/atom+xml" />
     <id>http://luis-checa.com/</id>
-    <updated>2013-10-12T22:46:25Z</updated>
+    <updated>2013-10-14T18:57:44Z</updated>
     
     <author>
         <name>Luis Checa</name>
@@ -15,14 +15,64 @@
     
     
         <entry>
+            <title>Curriculum Vitae</title>
+            <link rel="alternate" href="http://luis-checa.com/2013/10/My-CV/" type="text/html" />
+            <id>http://luis-checa.com/2013/10/My-CV/</id>
+            <updated>2013-10-14T18:57:00Z</updated>
+            
+            
+            <content type="html">&lt;h1&gt;Luis Checa&lt;/h1&gt;
+&lt;p&gt;32 Levedale House&lt;br&gt;
+Staffordshire University, Beaconside&lt;br&gt;
+Stafford ST18 0AB&lt;br&gt;
++44 7922 951 622&lt;br&gt;
+&lt;a href=&#34;mailto:luischeca@mail.com&#34;&gt;luischeca@mail.com&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Education&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2013 - to date, Staffordshire University: Computer Games Programming&lt;/li&gt;
+&lt;li&gt;2011 - 2013, South Trafford College: BTEC L3 Extended Diploma Software Development&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Employment - Work Experience&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;December 2012 - to date:
+Products and System Adminstrator, Solar Panels Direct.
+In charge of developing, improving and mantaining pricing tools for their products as well as creating and mantaining a distribution system.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Skills and Abilities&lt;/h2&gt;&lt;h3&gt;Language Skills&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;English [Fluent]&lt;/li&gt;
+&lt;li&gt;Spanish [First Language]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Computer Skills&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Microsoft Excel [Advanced]&lt;/li&gt;
+&lt;li&gt;Python [Intermediate]&lt;/li&gt;
+&lt;li&gt;VB.NET 2008 [Beginner-Intermediate]&lt;/li&gt;
+&lt;li&gt;VB.NET 2010 [Beginner-Intermediate]&lt;/li&gt;
+&lt;li&gt;Java [Beginner-Intermediate]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Interests and Achievements&lt;/h2&gt;
+&lt;p&gt;Computing Activities; News sites (Reddit, TechRadar, AndroidPolice), Website Design, System Adminstration, and Computer building.&lt;br&gt;
+Entertainment: Japanese Culture, Animation, Novels, and Films.&lt;br&gt;
+Gaming: First Person Shooters, Role-Playing, Adventure-Mystery, Sci-fi.&lt;/p&gt;
+
+&lt;p&gt;I enjoy fiddling with computers and testing out new technologies. For example: I created and maintain a blog based on a python framework generating static content pages.&lt;br&gt;
+On Fresher&amp;#39;s week we won a competition to make a game in 3 days using a game builder tool.&lt;/p&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;p&gt;Available on request.&lt;/p&gt;
+</content>
+        </entry>
+    
+        <entry>
             <title>Luis Checa</title>
             <link rel="alternate" href="http://luis-checa.com/2013/10/About-Me/" type="text/html" />
             <id>http://luis-checa.com/2013/10/About-Me/</id>
-            <updated>2013-10-12T22:34:00Z</updated>
+            <updated>2013-10-12T18:49:00Z</updated>
             
             
-            <content type="html">&lt;div class=&#39;lside&#39; id=&#39;social&#39;&gt;
-&lt;img alt=&#39;Luis Checa&#39; src=&#39;/assets/images/me.jpg&#39;&gt;
+            <content type="html">&lt;h1&gt;About Me&lt;/h1&gt;
+&lt;div class=&#39;lside&#39; id=&#39;social&#39;&gt;
+&lt;img alt=&#39;Luis Checa&#39; src=&#39;/assets/images/me.png&#39;&gt;
 &lt;ul id=&#39;social&#39;&gt;
   &lt;li&gt;&lt;a href=&#39;https://twitter.com/edhaker13&#39;&gt;&lt;img alt=&#39;twitter&#39; src=&#39;/assets/images/twitter_32.png&#39;&gt;&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&#39;https://github.com/edhaker13&#39;&gt;&lt;img alt=&#39;github&#39; src=&#39;/assets/images/github_32.png&#39;&gt;&lt;/a&gt;&lt;/li&gt;
@@ -72,36 +122,35 @@ This PC started out as a normal store bought desktop (Acer Insipre M6220, if any
 &lt;h2&gt;Software I use&lt;/h2&gt;
 &lt;p&gt;Everbody uses software, otherwise you couldn&amp;#39;t be reading this page, hahaha. But this is the software I use for one reason or another:&lt;br&gt;
 - &lt;a href=&#34;http://windows.iusethis.com/users/edhaker13&#34;&gt;I use this&lt;/a&gt;&lt;br&gt;
-- Editors and IDEs&lt;br&gt;
+- Editors and IDEs:&lt;br&gt;
     - &lt;a href=&#34;http://vim.org&#34;&gt;ViM&lt;/a&gt; on Linux.&lt;br&gt;
     - &lt;a href=&#34;http://notepad-plus-plus.org/&#34;&gt;Notepad++&lt;/a&gt; on Windows.&lt;br&gt;
     - &lt;a href=&#34;http://www.jetbrains.com/pycharm/&#34;&gt;PyCharm&lt;/a&gt; is really useful for Python.&lt;br&gt;
     - &lt;a href=&#34;http://www.eclipse.org/downloads/&#34;&gt;Eclipse&lt;/a&gt; is very good for Java &lt;em&gt;(a bit sluggish though)&lt;/em&gt;.&lt;br&gt;
-- Internet&lt;br&gt;
+- Internet:&lt;br&gt;
     - &lt;a href=&#34;http://google.com/chrome&#34;&gt;Google Chrome&lt;/a&gt; is a really snappy browser and the cross device sync actually works. &lt;em&gt;cough, firefox, cough&lt;/em&gt;&lt;br&gt;
     - qbittorent is lightweight and fast torent client, it&amp;#39;s not let me down yet.&lt;br&gt;
-- Social and IM&lt;br&gt;
+- Social and IM:&lt;br&gt;
     - &lt;a href=&#34;http://www.skype.com&#34;&gt;Skype&lt;/a&gt; for video/voice chat communications.&lt;br&gt;
     - &lt;a href=&#34;http://whatsapp.com&#34;&gt;WhatsApp&lt;/a&gt; for international contacts.&lt;br&gt;
     - &lt;a href=&#34;http://hexchat.github.com&#34;&gt;HexChat&lt;/a&gt; and &lt;a href=&#34;http://www.irssi.org&#34;&gt;irssi&lt;/a&gt; for IRC.&lt;br&gt;
     - Facebook when I have no choice.&lt;br&gt;
-- Media&lt;br&gt;
+- Media:&lt;br&gt;
     - &lt;a href=&#34;http://mpc-hc.org&#34;&gt;MPC&lt;/a&gt; an awesome and versatile video player.&lt;br&gt;
     - &lt;a href=&#34;http://code.google.com/p/lavfilters/&#34;&gt;LAV Filters&lt;/a&gt; decoders for smooth video playback.&lt;br&gt;
-    - You can find a complete guide of how to install these at &lt;a href=&#34;http://horriblesubs.info/playback-guide&#34;&gt;horriblesubs&lt;/a&gt;.&lt;br&gt;
+        - You can find a complete guide of how to install these at &lt;a href=&#34;http://horriblesubs.info/playback-guide&#34;&gt;horriblesubs&lt;/a&gt;.&lt;br&gt;
     - &lt;a href=&#34;http://www.foobar2000.org&#34;&gt;Foobar2000&lt;/a&gt; for my musical needs.&lt;br&gt;
     - &lt;a href=&#34;http:/store.steampowered.com/about/&#34;&gt;Steam&lt;/a&gt; for games both library and store.&lt;br&gt;
-    - &lt;a href=&#34;https://netflix.com&#34;&gt;Netflix&lt;/a&gt; and &lt;a href=&#34;https://crunchyroll.co.uk&#34;&gt;Crunchyroll&lt;/a&gt; take care of the my shows fix.&lt;br&gt;
-- Office and Productivity&lt;br&gt;
+    - &lt;a href=&#34;https://netflix.com&#34;&gt;Netflix&lt;/a&gt; and &lt;a href=&#34;https://crunchyroll.co.uk&#34;&gt;Crunchyroll&lt;/a&gt; take care of my shows fix.&lt;br&gt;
+- Office and Productivity:&lt;br&gt;
     - Microsoft Office is kind of a requirement for my work.&lt;br&gt;
     - &lt;a href=&#34;http://blog.kowalczyk.info/software/sumatrapdf/&#34;&gt;SumatraPDF&lt;/a&gt; as a PDF reader.&lt;br&gt;
-    - Gmail and &lt;a href=&#34;https://www.mozilla.org/en-GB/thunderbird/&#34;&gt;Thunderbird&lt;/a&gt; to&lt;br&gt;
-     manage my different email addresses.&lt;br&gt;
+    - Gmail and &lt;a href=&#34;https://www.mozilla.org/en-GB/thunderbird/&#34;&gt;Thunderbird&lt;/a&gt; to manage my different email addresses.&lt;br&gt;
     - &lt;a href=&#34;http://keepass.info&#34;&gt;KeePass&lt;/a&gt; is an excellent password manager.&lt;br&gt;
     - &lt;a href=&#34;https://www.dropbox.com&#34;&gt;Dropbox&lt;/a&gt; is a blessing to keep all your data synced&lt;br&gt;
     - &lt;a href=&#34;http://www.virtualbox.org&#34;&gt;VirtualBox&lt;/a&gt; is really useful to test new Operating Systems and testing enviroments.&lt;br&gt;
     - &lt;a href=&#34;http://sourceforge.net/projects/console/&#34;&gt;Console2&lt;/a&gt; and &lt;a href=&#34;https://code.google.com/p/msysgit/&#34;&gt;MSYSgit&lt;/a&gt; allows me to use git and other gnu utils on Windows.&lt;br&gt;
-- Server Communication&lt;br&gt;
+- Server Communication:&lt;br&gt;
     - &lt;a href=&#34;http://www.chiark.greenend.org.uk/%7Esgtatham/putty/&#34;&gt;PuTTY&lt;/a&gt; I use a portable version located on Dropbox so the settings and servers are synced across computers.&lt;br&gt;
     - &lt;a href=&#34;http://winscp.net&#34;&gt;WinSCP&lt;/a&gt; allows great flexibilty and it has SFTP which is what I use.&lt;br&gt;
     - &lt;a href=&#34;http://lechnology.com/KeeAgent&#34;&gt;KeeAgent&lt;/a&gt; acts as an SSH agent so I can store my SSH keys on the database and use them on demand inside KeePass.&lt;/p&gt;
