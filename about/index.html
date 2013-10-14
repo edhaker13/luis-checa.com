@@ -1,16 +1,16 @@
 {% extends 'layout.html' %}
 {% set title='About Me' %}
 {% block content %}
-  <div class='item'>
-    <div class='item-header'>
+  <section class='post'>
+    <header class='post-header'>
       <abbr title="Yep, that's me!"><h1>{{ site.author }}</h1></abbr>
-    </div>
-    <div class='item-body'>
+    </header>
+    <article class='post-body'>
       {% for post in posts %}
-        {% if 'about' in post.tags %}
+        {% if 'About' in post.tags %}
           {{ post.content }}
         {% endif %}
         {% endfor %}
-    </div>
-  </div>
+    </article>
+  </section>
 {% endblock %}

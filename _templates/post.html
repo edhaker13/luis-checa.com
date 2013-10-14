@@ -1,27 +1,22 @@
 {% extends 'layout.html' %}
 
-
 {% set title = post.title %}
 {% set pdescription = post.description %}
-{% set pkeywords = post.keywords %}
+{% set pkeywords = posts.keywords %}
 
 {% block breadcrumbs %}
-  <ul id="breadcrumbs">
-    <li><a href="{{ get_url() }}">Blog</a><span>&rsaquo;</span></li>
+<nav id='breadcrumbs'>
+  <ul id='breadcrumbs'>
+    <li><a href='{{ get_url() }}'>Blog</a><span>&rsaquo;</span></li>
     <li>{{ post.title|truncate(75) }}</li>
   </ul>
+</nav>
 {% endblock %}
 
 {% block content %}
-  <div class="item">
-    {% include "post.header.html" %}
-
-    <div class="item-body">
-      {{ post.content }}
-    </div>
-    {% if site.show_disqus %}
-      {% include "disqus.thread.html" %}
-    {% endif %}
-
-  </div>
+  <section class='post'>
+    {% include 'post.header.html' %}
+    <article>{{ post.content }}</article>
+    {% if site.show_disqus %}{% include 'disqus.thread.html' %}{% endif %}
+  </section>
 {% endblock %}
