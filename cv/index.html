@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+<head>
+    {% include 'page.header.html' %}
+
+    {% if site.title %}<title>{% if title %}{{ title }} &ndash; {% endif %}{{ site.title }}{% if not title and site.subtitle %} &ndash; {{ site.subtitle }}{% endif %}</title>{% endif %}
+</head>
+
+<body id='container'>
+    <aside id='sidebar'>
+      <header>
+        <h1><a href='{{ get_url() }}'>{{ site.title }}</a></h1>
+        <h2>Junior Games Programmer</h2>
+      </header>
+
+      <section class='module'>
+        <p>In case you're interested in my work you can find me on <a href='https://github.com/edhaker13'>GitHub</a>, <a href='https://facebook.com/edhaker13'>Facebook</a> and <a href='https://twitter.com/edhaker13'>Twitter</a>.</p>
+      </section>
+
+      <footer id='footer'>
+        <p>{% if site.author %}&copy; {{ none|date('%Y') }} {{ site.author }} {% endif %}</p>
+      </footer>
+    </aside>
+    <section id='content'>
+      {% block content %}
+        <section class='post'>
+          <article class='post-body'>
+            {% for post in posts %}
+              {% if 'Curriculum' in post.tags %}
+                {{ post.content }}
+              {% endif %}
+            {% endfor %}
+          </article>
+        </section>
+      {% endblock %}
+    </section>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+{% set title='Portfolio' %}
+
+{% block breadcrumbs %}
+<nav id='breadcrumbs'>
+  <ul id='breadcrumbs'>
+    <li><a href='{{ get_url() }}'>All</a><span>&rsaquo;</span></li>
+    <li>{{ title|truncate(75) }}</li>
+  </ul>
+</nav>
+{% endblock %}
+
+{% block content %}
+  {% for post in posts %}
+    {% if 'projects' in post.tags %}
+      <section class='post'>
+        <header class='post-header post-header-posts'>
+          <h1><a href={{ get_url(post.url) }}>{{ post.title }}</a></h1>
+          <h2>{{ post.date }}{% if post.tags %} <span>&raquo;</span> {% for tag in post.tags %}<a href='{{ get_url(tags[tag].url) }}'>{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %} <span>&raquo;</span> <a href='{{ get_url(post.url) }}#disqus_thread' title='Comments'>Comments</a></h2>
+        </header>
+        <article class='post-body'>
+          {{ post.content }}
+        </article>
+      </section>
+    {% endif %}
+  {% endfor %}
+{% endblock %}
