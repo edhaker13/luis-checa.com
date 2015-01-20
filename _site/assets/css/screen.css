@@ -1,8 +1,11 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  border-width: 0px;
-  outline: invert none 0px;
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 
 body {
@@ -11,8 +14,11 @@ body {
   background-position: left top;
   background-repeat: repeat;
   color: #d9d9d9;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 14px;
+  font: normal 100% Ubuntu, sans-serif;
+  -moz-text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8);
+  -webkit-text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8);
+  -webkit-text-size-adjust: none;
 }
 
 article, aside, details, figcaption, figure, footer, header, nav, section {
@@ -20,84 +26,86 @@ article, aside, details, figcaption, figure, footer, header, nav, section {
 }
 
 blockquote, dl, ol, p, pre, table, ul {
-  margin: 18px 0px 18px 0px;
+  margin: 1.5em 0 1.5em 0;
 }
 
 blockquote {
   overflow: hidden;
-  padding: 0px 18px 0px 18px;
+  padding: 0 2% 0 2%;
   background-color: #1f1f1f;
 }
 
 dd, dt {
-  line-height: 18px;
+  line-height: 2%;
 }
 
 dl.horizontal > dd {
-  margin-left: 65px;
+  margin-left: 4.5em;
 }
 dl.horizontal > dd + dt {
-  margin-top: 18px;
+  margin-top: 2%;
 }
 dl.horizontal > dd + dt + dd {
-  margin-top: 18px;
+  margin-top: 2%;
 }
 dl.horizontal > dt {
   float: left;
-  width: 50px;
+  width: 4em;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: white;
   font-style: italic;
   font-weight: normal;
-  line-height: 18px;
+  line-height: 100%;
 }
 
 h1, h2 {
-  line-height: 36px;
+  line-height: 175%;
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 150%;
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 120%;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 100%;
 }
 
 h4 {
-  font-size: 16px;
+  font-size: 90%;
 }
 
 h5 {
-  font-size: 14px;
+  font-size: 75%;
 }
 
 h6 {
-  font-size: 12px;
+  font-size: 70%;
 }
 
-li {
-  line-height: 18px;
-}
 ol > li:before, ul > li:before {
-  padding-right: 8px;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
   color: #e6db74;
 }
+
 ol > li {
   counter-increment: post;
 }
+
 ol > li:before {
   content: counter(post, decimal) '.';
 }
+
 ul > li:before {
   content: '\2022';
 }
+
 ul.unstyled > li:before {
   padding-right: 0px;
   content: none;
@@ -108,8 +116,9 @@ ol, ul {
   list-style-position: inside;
   list-style-type: none;
 }
+
 ol ol, ol ul, ul ol, ul ul {
-  margin: 0px 0px 0px 20px;
+  margin: 0 0 0 1.2em;
 }
 
 ol {
@@ -117,25 +126,15 @@ ol {
 }
 
 p {
-  line-height: 18px;
+  line-height: 100%;
   text-align: justify;
 }
 
-.lside {
-  display:block;
-  float:left;
-}
-
-.rside {
-  display:block;
-  float:right;
-}
-
 pre {
-  padding: 0px 3px 0px 3px;
+  padding: 0 3px 0 3px;
   background-color: #1f1f1f;
   font-family: 'Envy Code R', 'Ubuntu Mono', monospace;
-  line-height: 18px;
+  line-height: 100%;
 }
 
 table {
@@ -144,15 +143,15 @@ table {
 }
 
 td, th {
-  padding: 9px;
-  line-height: 18px;
+  padding: 1%;
+  line-height: 100%;
 }
 
 td > :first-child {
-  margin-top: 0px;
+  margin-top: 0;
 }
 td > :last-child {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 tr:nth-child(2n) > td {
   background-color: #222222;
@@ -169,11 +168,10 @@ th {
 a {
   color: #a6ca48;
   text-decoration: none;
-  -webkit-transition: color 0.2s;
-  -moz-transition: color 0.2s;
-  -ms-transition: color 0.2s;
   -o-transition: color 0.2s;
-  transition: color 0.2s;
+  -moz-transition: 0.2s color linear;
+  -webkit-transition: 0.2s color linear;
+  transition: 0.2s color linear;
 }
 a:hover {
   color: #e6db74;
@@ -184,7 +182,7 @@ code {
   background-color: #1f1f1f;
   color: #a6a6a6;
   font-family: 'Envy Code R', 'Ubuntu Mono', monospace;
-  line-height: 18px;
+  line-height: 100%;
   white-space: pre;
 }
 pre code {
@@ -203,97 +201,92 @@ a > img {
 }
 
 #container {
-  margin-top: 18px;
-  width: 960px;
-}
-
-#sidebar {
-  position: fixed;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  padding: 0px 18px 0px 18px;
-  width: 255px;
-}
-
-#header {
-  margin: 18px 0px 18px 0px;
+  width: 100%;
 }
 
 #footer {
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  padding: 0px 18px 0px 18px;
-  width: 255px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 0 2% 0 2%;
+  width: 12%;
+  font-size: 60%;
+  text-transform: uppercase;
 }
 
 #breadcrumbs {
   position: fixed;
-  top: 18px;
-  left: 309px;
-  margin: 0px;
-  padding: 9px;
-  width: 783px;
+  top: 0;
+  left: 21%;
+  padding: 0.5%;
+  width: 74%;
+  background-color: #1a1a1a;
+  color: #a6a6a6;
+  font-family: 'Ubuntu Mono', sans-serif;
+  font-style: italic;
+}
+
+#breadcrumbs + #content, nav + #content {
+  margin-top: 4%;
+}
+
+#breadcrumbs > li {
+  float: left;
+}
+
+#breadcrumbs > li:before {
+  padding-right: 0px;
+  content: none;
+}
+
+#breadcrumbs span {
+  padding: 0px 6px 0px 6px;
+  color: #d9d9d9;
+  font-style: normal;
 }
 
 #content {
-  margin: 18px 0px 18px 309px;
+  margin-left: 21%;
   min-width: 600px;
-  width: 801px;
+  width: 75%;
 }
-#breadcrumbs + #content {
-  margin-top: 72px;
-}
+
 #content > :first-child {
-  margin-top: 0px;
+  margin-top: 0;
 }
+
 #content > :last-child {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 #sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 0 2% 0 2%;
+  width: 16%;
   background-color: #1a1a1a;
   background-image: url('../images/sbg.png');
   background-position: left top;
   background-repeat: repeat;
 }
 
-#header > h1 {
-  font-family: 'Ubuntu Mono', sans-serif;
-  font-size: 36px;
-}
-#header > h2 {
-  color: #a6a6a6;
-  font-size: 16px;
-  line-height: 18px;
-}
-#header a {
-  color: white;
-  -webkit-transition: color 0.25s;
-  -moz-transition: color 0.25s;
-  -ms-transition: color 0.25s;
-  -o-transition: color 0.25s;
-  transition: color 0.25s;
-}
-#header a:hover {
-  color: #a6ca48;
+#social {
+  margin-right: 1em;
 }
 
-#social {
-  margin-left: 4px;
-  margin-right: 4px;
-  margin-top: 4px;
-  display:block;
+#social ul {
+  margin: 0;
 }
 
 #social li {
   float: left;
-  margin-left: 32px;
-  border: none;
+  margin-left: 2.25em;
   padding: 0;
   line-height: normal;
 }
+
 #social > li:before {
   content: none;
 }
@@ -304,13 +297,18 @@ a > img {
   background-color: transparent;
 }
 
-#social li a img {
-  height: 32px;
-  width: 32px;
+.lside {
+  display: block;
+  float: left;
+}
+
+.rside {
+  display: block;
+  float: right;
 }
 
 .module {
-  margin-top: 18px;
+  margin-top: 2%;
   font-style: italic;
 }
 
@@ -320,45 +318,21 @@ a > img {
   text-transform: uppercase;
 }
 
-#footer {
-  font-size: 11px;
-  text-transform: uppercase;
-}
-
-#breadcrumbs {
-  background-color: #1a1a1a;
-  color: #a6a6a6;
-  font-family: 'Ubuntu Mono', sans-serif;
-  font-style: italic;
-}
-#breadcrumbs > li {
-  float: left;
-}
-#breadcrumbs > li:before {
-  padding-right: 0px;
-  content: none;
-}
-#breadcrumbs span {
-  padding: 0px 6px 0px 6px;
-  color: #d9d9d9;
-  font-style: normal;
-}
-
 .post-header {
-  padding: 12px;
+  padding: 1%;
   background-color: #1f1f1f;
 }
 .post-header > h1 {
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 150%;
+  line-height: 180%;
 }
 .post-header > h2 {
   color: #a6a6a6;
-  font-size: 11px;
+  font-size: 90%;
   font-style: normal;
-  line-height: 18px;
+  line-height: 100%;
   text-transform: uppercase;
-  word-spacing: 2px;
+  word-spacing: 0.2em;
 }
 .post-header span {
   position: relative;
@@ -366,38 +340,38 @@ a > img {
 }
 
 .post-body {
-  margin-top: 18px;
+  margin-top: 2%;
 }
 .post-body > :first-child {
-  margin-top: 0px;
+  margin-top: 0;
 }
 .post-body > :last-child {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 .post-body h1 {
-  margin: 24px 0px -6px 0px;
+  margin: 1.4em 0 -0.4em 0;
 }
 
 div.code {
-  margin: 18px 0px 18px 0px;
+  margin: 2% 0 2% 0;
 }
 div.code > div {
   overflow: auto;
   background-color: #1f1f1f;
 }
 div.code pre {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
   background-color: transparent;
 }
 
 .highlighttable {
-  margin: 0px;
+  margin: 0;
   background-color: transparent;
 }
 .highlighttable .linenos, .highlighttable .code {
-  padding: 9px;
+  padding: 0.5em;
 }
 .highlighttable .linenos {
   background-color: #1a1a1a;
@@ -405,16 +379,16 @@ div.code pre {
 }
 
 .post-header-posts {
-  margin: 18px 0px 18px 0px;
-  padding: 9px;
+  margin: 2% 0 2% 0;
+  padding: 0.5em;
 }
 .post-header-posts > h1 {
-  font-size: 16px;
-  line-height: 18px;
+  font-size: 95%;
+  line-height: 150%;
 }
 .post-header-posts > h2 {
-  font-size: 10px;
-  line-height: 18px;
+  font-size: 65%;
+  line-height: 100%;
 }
 .post-header-posts > h2 a {
   color: white;
@@ -424,21 +398,21 @@ div.code pre {
 }
 
 .archives {
-  padding: 9px;
+  padding: 0.5em;
   background-color: #1f1f1f;
 }
 .archives .archives {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
   background-color: transparent;
 }
 
 .archives-year a {
   color: white;
-  font-size: 18px;
+  font-size: 100%;
   font-style: italic;
-  line-height: 18px;
+  line-height: 100%;
 }
 .archives-year a:hover {
   color: #a6ca48;
@@ -446,7 +420,7 @@ div.code pre {
 
 .archives-post-date {
   color: #a6a6a6;
-  font-size: 12px;
+  font-size: 70%;
   font-style: italic;
   text-transform: uppercase;
 }
@@ -457,7 +431,7 @@ div.code pre {
 
 .archives-post-tags {
   color: #a6a6a6;
-  font-size: 10px;
+  font-size: 65%;
   text-transform: uppercase;
   word-spacing: 2px;
 }
