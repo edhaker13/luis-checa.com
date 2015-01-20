@@ -5,9 +5,9 @@
 {% set pkeywords = posts.keywords %}
 
 {% block breadcrumbs %}
-<nav id='breadcrumbs'>
+<nav>
   <ul id='breadcrumbs'>
-    <li><a href='{{ get_url() }}'>Blog</a><span>&rsaquo;</span></li>
+    <li><a href='{{ get_url() }}'>All</a><span>&rsaquo;</span></li>
     <li>{{ post.title|truncate(75) }}</li>
   </ul>
 </nav>
