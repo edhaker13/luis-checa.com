@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://luis-checa.com/" />
     <link rel="self" href="http://luis-checa.com/feed.xml" type="application/atom+xml" />
     <id>http://luis-checa.com/</id>
-    <updated>2015-01-20T15:42:47Z</updated>
+    <updated>2015-02-12T18:45:52Z</updated>
     
     <author>
         <name>Luis Checa</name>
@@ -18,7 +18,7 @@
             <title>Curriculum Vitae</title>
             <link rel="alternate" href="http://luis-checa.com/2014/11/My-CV/" type="text/html" />
             <id>http://luis-checa.com/2014/11/My-CV/</id>
-            <updated>2014-11-05T14:44:00Z</updated>
+            <updated>2014-11-05T18:45:00Z</updated>
             
             
             <content type="html">&lt;h1&gt;Luis Checa&lt;/h1&gt;
@@ -26,8 +26,10 @@
 Stafford, ST17 4LL&lt;br&gt;
 &lt;a href=&#34;mailto:luis@luis-checa.com&#34;&gt;luis@luis-checa.com&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;I am a young programmer, looking to expand my knowledge and gain experience, regardless of the country.&lt;br&gt;
-I like gaming, tinkering with gadgets, and most importantly pizza.&lt;/p&gt;
+&lt;p&gt;Young programmer wishing to expand horizons and polish his skills.&lt;br&gt;
+Troubleshooting is one of his main attributes although quick learning outshines this strength.&lt;br&gt;
+Willing to learn and eager to apply his knowledge. Good eye for details and focus to finish any given task.&lt;br&gt;
+Open to relocate.&lt;/p&gt;
 &lt;h2&gt;Education&lt;/h2&gt;&lt;h3&gt;2013 - to date, Staffordshire University: Computer Games Programming&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Games and Graphics Systems&lt;/em&gt;: C++, used OpenGL to make simple 2D and 3D demos&lt;/li&gt;
@@ -47,7 +49,7 @@ I like gaming, tinkering with gadgets, and most importantly pizza.&lt;/p&gt;
 &lt;h2&gt;Skills and Abilities&lt;/h2&gt;&lt;h3&gt;Language Skills&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;English&lt;/li&gt;
-&lt;li&gt;Spanish [Native]&lt;/li&gt;
+&lt;li&gt;Spanish [Mother Tongue]&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Computer Skills&lt;/h3&gt;
 &lt;ul&gt;
@@ -58,7 +60,10 @@ I like gaming, tinkering with gadgets, and most importantly pizza.&lt;/p&gt;
 &lt;li&gt;Visual Basic [Beginner-Intermediate]&lt;/li&gt;
 &lt;li&gt;Java [Beginner-Intermediate]&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Achievements&lt;/h2&gt;
+&lt;h2&gt;Past Projects&lt;/h2&gt;
+&lt;p&gt;Most of them are available on github &lt;a href=&#34;https://github.com/edhaker13&#34;&gt;https://github.com/edhaker13&lt;/a&gt;&lt;br&gt;
+Others I list below:&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;I mantain a blog using a python framework that generates static content pages.&lt;/li&gt;
 &lt;li&gt;On our University&amp;#39;s freshers week we won the competition to make a game in 3 days using game maker software.&lt;/li&gt;
